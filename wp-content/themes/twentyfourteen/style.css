@@ -7,6 +7,7 @@
 #menu-left-navigation .sub-menu li a{text-transform:none; font-size: 13px;}
 body.custom-background{background-color: #000 !important}
 #menu-left-navigation .menu-item-*{font-size: 14px;}
+#comments{display: none}
 /*
 Theme Name: Twenty Fourteen
 Theme URI: http://wordpress.org/themes/twentyfourteen
