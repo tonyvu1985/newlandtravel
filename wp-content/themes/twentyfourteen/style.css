@@ -1,7 +1,12 @@
 /* Custom Theme: Tony Vu  */
 .site-footer .left-footer{width: 50%; float: left}
 .site-footer .right-footer{width: 20%; float: left}
-
+.site{margin: 0 auto}
+#menu-left-navigation li a{text-transform:uppercase; font-size: 14px;}
+#menu-left-navigation .sub-menu{margin-left:0}
+#menu-left-navigation .sub-menu li a{text-transform:none; font-size: 13px;}
+body.custom-background{background-color: #000 !important}
+#menu-left-navigation .menu-item-*{font-size: 14px;}
 /*
 Theme Name: Twenty Fourteen
 Theme URI: http://wordpress.org/themes/twentyfourteen
@@ -848,7 +853,7 @@ span + .edit-link:before,
 
 .site-title {
 	float: left;
-	font-size: 18px;
+	font-size: 30px;
 	font-weight: 700;
 	line-height: 48px;
 	margin: 0;
@@ -3176,7 +3181,7 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 673px) {
 	.header-main {
-		padding: 0 30px;
+		padding: 0 10px;
 	}
 
 	.search-toggle {
@@ -3228,7 +3233,7 @@ a.post-thumbnail:hover {
 
 	#secondary,
 	#supplementary {
-		padding: 0 30px;
+		padding: 0 10px;
 	}
 
 	.content-sidebar {
@@ -3303,7 +3308,7 @@ a.post-thumbnail:hover {
 	}
 
 	.site-info {
-		padding: 15px 30px;
+		padding: 15px 10px;
 	}
 }
 
@@ -3930,7 +3935,7 @@ a.post-thumbnail:hover {
 	}
 
 	#secondary {
-		width: 162px;
+		width: 190px;
 	}
 
 	.secondary-navigation,
