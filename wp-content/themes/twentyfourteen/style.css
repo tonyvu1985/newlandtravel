@@ -6,7 +6,8 @@
 
 /*hard code our service and Newland Immigration*/
 #menu-item-160 a, #menu-item-48 a, #menu-item-169 a, #menu-item-170 a{display: block; background: #3376bb; padding: 10px 0px 10px 10px; color: #fff; text-transform: uppercase}
-#menu-item-159, #menu-item-50, #menu-item-52, #menu-item-49, #menu-item-44, #menu-item-45, #menu-item-46, #menu-item-47{padding-left: 10px;}
+#menu-item-159, #menu-item-50, #menu-item-52, #menu-item-49, #menu-item-44, #menu-item-45, #menu-item-46, #menu-item-47,
+#menu-item-114, #menu-item-105, #menu-item-108, #menu-item-113, #menu-item-109, #menu-item-106, #menu-item-107, #menu-item-110{padding-left: 10px;}
 /*
 Theme Name: Twenty Fourteen
 Theme URI: http://wordpress.org/themes/twentyfourteen
@@ -2098,6 +2099,7 @@ a.post-thumbnail:hover {
 
 .widget a {
 	color: #333;
+        font-size: 13px;
 }
 
 .widget a:hover {
