@@ -5,7 +5,7 @@
 #comments{display: none}
 
 /*hard code our service and Newland Immigration*/
-#menu-item-160 a, #menu-item-48 a{display: block; background: #3376bb; padding: 10px 0px 10px 10px; color: #fff; text-transform: uppercase}
+#menu-item-160 a, #menu-item-48 a, #menu-item-169 a, #menu-item-170 a{display: block; background: #3376bb; padding: 10px 0px 10px 10px; color: #fff; text-transform: uppercase}
 
 /*
 Theme Name: Twenty Fourteen
