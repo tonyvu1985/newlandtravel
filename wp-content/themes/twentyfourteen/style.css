@@ -2,11 +2,10 @@
 .site-footer .left-footer{width: 50%; float: left}
 .site-footer .right-footer{width: 20%; float: left}
 .site{margin: 0 auto}
-#menu-left-navigation li a, #menu-left-navigation-vi li a{text-transform:uppercase; font-size: 14px;}
-#menu-left-navigation .sub-menu, #menu-left-navigation-vi .sub-menu{margin-left:0}
-#menu-left-navigation .sub-menu li a, #menu-left-navigation-vi .sub-menu li a{text-transform:none; font-size: 13px;}
-#menu-left-navigation .menu-item-*, #menu-left-navigation-vi .menu-item-*{font-size: 14px;}
 #comments{display: none}
+
+/*hard code our service and Newland Immigration*/
+#menu-item-160 a, #menu-item-48 a{display: block; background: #3376bb; padding: 10px 0px 10px 10px; color: #fff; text-transform: uppercase}
 
 /*
 Theme Name: Twenty Fourteen
@@ -152,7 +151,7 @@ h5,
 h6 {
 	clear: both;
 	font-weight: 700;
-	margin: 36px 0 12px;
+	margin: 15px 0 15px;
 }
 
 h1 {
@@ -869,7 +868,7 @@ span + .edit-link:before,
 /* Search in the header */
 
 .search-toggle {
-	background-color: #24890d;
+	background-color: #3376bb;
 	cursor: pointer;
 	float: right;
 	height: 48px;
@@ -880,7 +879,7 @@ span + .edit-link:before,
 
 .search-toggle:hover,
 .search-toggle.active {
-	background-color: #41a62a;
+	background-color: #3376bb;
 }
 
 .search-toggle:before {
@@ -952,7 +951,7 @@ span + .edit-link:before,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #55d737;
+	color: #3376bb;
 	font-weight: 900;
 }
 
@@ -2034,11 +2033,11 @@ a.post-thumbnail:hover {
 /* Secondary */
 
 #secondary {
-	background-color: #000;
+	/*background-color: #000;*/
 	border-top: 1px solid #000;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	clear: both;
-	color: rgba(255, 255, 255, 0.7);
+	color: #333;
 	margin-top: -1px;
 	padding: 0 30px;
 	position: relative;
@@ -2090,7 +2089,7 @@ a.post-thumbnail:hover {
 	-ms-hyphens:     auto;
 	hyphens:         auto;
 	line-height: 1.2857142857;
-	margin-bottom: 48px;
+	margin-bottom: 26px;
 	width: 100%;
 	word-wrap: break-word;
 }
@@ -2290,7 +2289,7 @@ a.post-thumbnail:hover {
 }
 
 .widget_calendar caption {
-	color: #fff;
+	color: #333;
 	font-weight: 700;
 	line-height: 1.7142857142;
 	margin-bottom: 18px;
@@ -3312,7 +3311,8 @@ a.post-thumbnail:hover {
 	}
 
 	.site-info {
-		padding: 15px 10px;
+		padding: 30px;
+                border-top: 1px solid #ccc
 	}
 }
 
@@ -3525,7 +3525,7 @@ a.post-thumbnail:hover {
 @media screen and (min-width: 846px) {
 	.content-area,
 	.content-sidebar {
-		padding-top: 72px;
+		padding-top: 20px;
 	}
 
 	.site-content .has-post-thumbnail .entry-header {
@@ -3939,7 +3939,7 @@ a.post-thumbnail:hover {
 	}
 
 	#secondary {
-		width: 250px;
+		width: 210px;
 	}
 
 	.secondary-navigation,
