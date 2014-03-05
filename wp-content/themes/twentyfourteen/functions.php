@@ -513,6 +513,9 @@ require get_template_directory() . '/inc/template-tags.php';
 // Add Theme Customizer functionality.
 require get_template_directory() . '/inc/customizer.php';
 
+// include contact-detail-widget
+require 'contact-detail-widget.php';
+
 /*
  * Add Featured Content functionality.
  *
