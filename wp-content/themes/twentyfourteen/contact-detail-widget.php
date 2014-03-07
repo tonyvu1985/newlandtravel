@@ -56,12 +56,12 @@ class Contact_Detail_Widget extends WP_Widget {
 	function form($instance){
 
 		//Set up some default widget settings.
-		$defaults = array('name' => __('Bilal Shaheen', 'example'), 'detail' => __('Contact Detail', 'example'));
+		$defaults = array('name' => __('Contact Detail', 'example'), 'detail' => __('Contact Detail', 'example'));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
                 
 		<p>
-			<label for="<?php echo $this->get_field_id( 'name' ); ?>"><?php _e('Your Name:', 'example'); ?></label>
-			<input id="<?php echo $this->get_field_id( 'name' ); ?>" name="<?php echo $this->get_field_name( 'name' ); ?>" value="<?php echo $instance['name']; ?>" style="width:100%;" />
+			<label for="<?php echo $this->get_field_id( 'name' ); ?>"><?php _e('Heading:', 'example'); ?></label>
+			<input id="<?php echo $this->get_field_id( 'name' ); ?>" name="<?php echo $this->get_field_name('name'); ?>" value="<?php echo $instance['name']; ?>" style="width:100%;" />
 		</p>
 
                 
