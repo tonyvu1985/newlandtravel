@@ -31,11 +31,11 @@ class Contact_Detail_Widget extends WP_Widget {
 
 		//Display the name 
 		if ($name)
-			echo $name;
+			echo '<span class="contact-heading">' . $name . '</span>';
 		
                 // Check if textarea is set
                 if($detail) {
-                      echo '<p>'.$detail.'</p>';
+                      echo '<p class="contact-detail">'.$detail.'</p>';
                 }
 
 		echo $after_widget;
@@ -48,7 +48,7 @@ class Contact_Detail_Widget extends WP_Widget {
 
 		//Strip tags from title and name to remove HTML 
 		$instance['name'] = strip_tags( $new_instance['name']);            
-                $instance['detail'] = strip_tags( $new_instance['detail'] );
+                $instance['detail'] = stripslashes( $new_instance['detail'] );
 		return $instance;
 	}
 

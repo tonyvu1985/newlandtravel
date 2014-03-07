@@ -1,9 +1,10 @@
 /* Custom Theme: Tony Vu  */
-.site-footer .left-footer{width: 50%; float: left}
-.site-footer .right-footer{width: 20%; float: left}
+
 .site{margin: 0 auto}
 #comments{display: none}
-
+.contact-span1{padding-right: 10px}
+.widget_contact_detail_widget .contact-heading{display: block; background: #3376bb; padding: 10px 0px 10px 10px; color: #fff; text-transform: uppercase;}
+.widget_contact_detail_widget .contact-detail{display: block; padding: 10px;}
 /*hard code our service and Newland Immigration*/
 #menu-item-160 a, #menu-item-48 a, #menu-item-169 a, #menu-item-170 a{display: block; background: #3376bb; padding: 10px 0px 10px 10px; color: #fff; text-transform: uppercase}
 #menu-item-159, #menu-item-50, #menu-item-52, #menu-item-49, #menu-item-44, #menu-item-45, #menu-item-46, #menu-item-47,
@@ -2223,6 +2224,7 @@ a.post-thumbnail:hover {
 
 .widget p {
 	margin-bottom: 18px;
+        font-size: 13px;
 }
 
 .widget input,
@@ -3695,7 +3697,7 @@ a.post-thumbnail:hover {
 
 	.footer-sidebar .widget,
 	.primary-sidebar .widget {
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 1.5;
 	}
 
@@ -3761,8 +3763,7 @@ a.post-thumbnail:hover {
 	}
 
 	.footer-sidebar .widget blockquote,
-	.primary-sidebar .widget blockquote {
-		font-size: 14px;
+	.primary-sidebar .widget blockquote {		font-size: 14px;
 		line-height: 1.2857142857;
 	}
 
