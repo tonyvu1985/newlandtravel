@@ -1,5 +1,5 @@
 /* Custom Theme: Tony Vu  */
-
+#content .latestpost{width: 32%; float: left; padding-right: 10px}
 .site{margin: 0 auto}
 #comments{display: none}
 .contact-span1{padding-right: 10px}
@@ -3932,16 +3932,16 @@ a.post-thumbnail:hover {
 
 	.site-content,
 	.site-main .widecolumn {
-		margin-left: 222px;
+		margin-left: 255px;
 	}
 
 	.site:before {
-		width: 222px;
+		width: 255px;
 	}
 
 	.search-box-wrapper,
 	.featured-content {
-		padding-left: 222px;
+		padding-left: 255px;
 	}
 
 	#secondary {
@@ -3950,7 +3950,7 @@ a.post-thumbnail:hover {
 
 	.secondary-navigation,
 	.secondary-navigation ul ul {
-		width: 222px;
+		width: 255px;
 	}
 
 	.secondary-navigation ul li:hover > ul,
