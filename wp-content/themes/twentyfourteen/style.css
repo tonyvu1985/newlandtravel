@@ -1,5 +1,6 @@
 /* Custom Theme: Tony Vu  */
-#content .latestpost{width: 32%; float: left; padding-right: 10px}
+#content .latestpost{width: 32%; float: left; padding-right: 1%}
+.navigation.post-navigation{margin: 0}
 .site{margin: 0 auto}
 #comments{display: none}
 .contact-span1{padding-right: 10px}
@@ -9,7 +10,7 @@
 #menu-item-160 a, #menu-item-48 a, #menu-item-169 a, #menu-item-170 a{display: block; background: #3376bb; padding: 10px 0px 10px 10px; color: #fff; text-transform: uppercase}
 #menu-item-159, #menu-item-50, #menu-item-52, #menu-item-49, #menu-item-44, #menu-item-45, #menu-item-46, #menu-item-47,
 #menu-item-114, #menu-item-105, #menu-item-108, #menu-item-113, #menu-item-109, #menu-item-106, #menu-item-107, #menu-item-110,
-#menu-item-186, #menu-item-194, #menu-item-199, #menu-item-200{padding-left: 10px;}
+#menu-item-186, #menu-item-194, #menu-item-199, #menu-item-200, #menu-item-302, #menu-item-301, #menu-item-304, #menu-item-303{padding-left: 10px;}
 /*
 Theme Name: Twenty Fourteen
 Theme URI: http://wordpress.org/themes/twentyfourteen
@@ -3629,7 +3630,7 @@ a.post-thumbnail:hover {
 
 	.site-description {
 		display: block;
-		margin: 6px 0 21px;
+		margin: 22px 0 21px;
 	}
 
 	.site-description:empty {

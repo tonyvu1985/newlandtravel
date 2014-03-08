@@ -43,10 +43,10 @@
 		</a>
 	</div>
 	<?php endif; ?>
-
+<!--http://www.newlandtravel.local/wp-content/uploads/2014/03/Newland.png-->
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                    <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img width="260px" src="/wp-content/uploads/2014/03/Newland.png" alt="newland travel" /></a></h1>
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
