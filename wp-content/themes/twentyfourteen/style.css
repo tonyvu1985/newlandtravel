@@ -1,4 +1,5 @@
 /* Custom Theme: Tony Vu  */
+.primary-sidebar .widget .search-field{border: 1px solid #eee; color: #333; padding: 7px 5px 10px 7px}
 #content .latestpost{width: 32%; float: left; padding-right: 1%}
 .navigation.post-navigation{margin: 0}
 .site{margin: 0 auto}
@@ -129,7 +130,7 @@ body {
 }
 
 a {
-	color: #24890d;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -144,7 +145,7 @@ a:active {
 
 a:active,
 a:hover {
-	color: #41a62a;
+	color: #3376bb;
 }
 
 h1,
