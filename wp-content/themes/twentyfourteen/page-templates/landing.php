@@ -20,7 +20,7 @@ get_header(); ?>
             <?php echo do_shortcode("[metaslider id=119]") ?>
             <div style="clear:both; height: 60px"></div>
             <!-- category=X&numberposts=X -->
-            <?php $posts = get_posts("numberposts=6"); ?>
+            <?php $posts = get_posts("numberposts=12"); ?>
             <?php $i = 1;?>
             <?php if($posts) : ?>
                 <?php foreach( $posts as $post ) : setup_postdata($post); ?>
