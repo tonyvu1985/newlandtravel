@@ -15,7 +15,8 @@
 #menu-item-186, #menu-item-194, #menu-item-199, #menu-item-200, #menu-item-302, #menu-item-301, #menu-item-304, #menu-item-303,
 #menu-item-311, #menu-item-312{padding-left: 10px;}
 #recent-posts-2 h1{text-transform: uppercase; background: #3376bb; padding: 10px; font-size: 13px;}
-#recent-posts-2 ul{padding-left: 10px;}
+#recent-posts-2 ul{padding-left: 0px;}
+.special-offer{margin: 30px 0}
 @media screen and (max-width: 500px) {
     .newlandtravel-logo{display: none}
 }
