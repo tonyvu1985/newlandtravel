@@ -36,12 +36,6 @@ get_header(); ?>
         <?php endif; ?>	
 
         <div class="special-offer">
-            <div class="col1" style="width: 100%">
-                <a href="/international-flights/" alt="international flight" /><img style="width:100%" src="http://www.newlandtravel.com.au/wp-content/uploads/2014/03/special-offer.png" alt="vietnam special offer" /></a>
-            </div>
-
-            <div class="col2">
-            </div>
         </div>
                             
         </div><!-- #content -->
